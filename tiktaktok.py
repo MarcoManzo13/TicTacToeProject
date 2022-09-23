@@ -8,7 +8,7 @@ player = 1  # To initialize the first player
 total_moves = 0 # Should no exceed 9 moves.
 end_check = 0 # To check if someone won
 
-def check():
+def check(): # Create a function that checks the winning conditions.
     # Checking the moves of player one
     # For horizontal check of winning (start)
     if board['T1'] == 'X' and board['T2'] == 'X' and board['T3'] == 'X':
